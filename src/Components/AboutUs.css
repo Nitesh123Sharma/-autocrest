@@ -1,0 +1,78 @@
+.about-section {
+    background-color: #ffffff;
+    padding: 100px 0;
+  }
+  
+  .about-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #1c1c1e;
+    margin-bottom: 10px;
+  }
+  
+  .about-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #777;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .about-image {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-heading {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1c1c1e;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  .about-text-light {
+    font-size: 1.05rem;
+    color: #777;
+  }
+  
+  .read-more-btn {
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 25px;
+  }
+  
+  /* ✅ Responsive Design */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2.2rem;
+    }
+  
+    .about-heading {
+      font-size: 1.5rem;
+    }
+  
+    .about-text,
+    .about-text-light,
+    .about-subtitle {
+      font-size: 1rem;
+      text-align: justify;
+    }
+  
+    .read-more-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

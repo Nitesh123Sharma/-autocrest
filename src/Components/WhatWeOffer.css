@@ -1,0 +1,51 @@
+.offer-section {
+    background-color: #fdfdfd;
+    padding: 100px 0;
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1c1c1e;
+  }
+  
+  .section-title .highlight {
+    color: #007bff;
+  }
+  
+  .offer-card {
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+    background: #fff;
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .offer-icon {
+    font-size: 2.8rem;
+    color: #007bff;
+  }
+  
+  /* ✅ Responsive tweaks */
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .offer-icon {
+      font-size: 2.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-title {
+      font-size: 1.8rem;
+    }
+  
+    .offer-icon {
+      font-size: 2rem;
+    }
+  }
+  

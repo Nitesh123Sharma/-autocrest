@@ -1,0 +1,13 @@
+.contact-section {
+  min-height: 100vh;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #1c1c1c;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  color: #333;
+}

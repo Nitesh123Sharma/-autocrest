@@ -1,0 +1,91 @@
+/* Footer Styling */
+.footer {
+  background-color: #f8f9fa;
+  color: #333;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.footer a {
+  color: #333;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #007bff;
+}
+
+.footer-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.footer h6,
+.footer h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.footer .list-unstyled li {
+  line-height: 1.8;
+}
+
+.footer .bi {
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+}
+
+.footer .bi:hover {
+  transform: scale(1.1);
+}
+
+/* Social Icons Section */
+.footer .d-flex a {
+  color: #333;
+  margin-right: 15px;
+}
+
+.footer .d-flex a:hover {
+  color: #007bff;
+}
+
+/* Horizontal line separator */
+.footer hr {
+  border-color: #ddd;
+  margin-top: 2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer .bi {
+    font-size: 1.1rem;
+  }
+
+  .footer-title {
+    font-size: 1.4rem;
+  }
+
+  .footer .d-flex {
+    justify-content: center;
+  }
+
+  .footer .footer-title,
+  .footer h5,
+  .footer h6 {
+    text-align: center;
+  }
+
+  /* Text Alignment for Smaller Screens */
+  .footer .text-center {
+    text-align: center;
+  }
+
+  /* Adjust spacing for mobile */
+  .footer .mb-md-0 {
+    margin-bottom: 1rem;
+  }
+}
